@@ -1,0 +1,12 @@
+sudo: false
+language: go
+go:
+  - "1.10.x"
+matrix:
+  fast_finish: true
+install:
+  - go get golang.org/x/lint/golint
+script:
+  - golint ./...
+  - go vet ./...
+  - go test ./...
