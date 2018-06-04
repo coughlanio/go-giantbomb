@@ -14,12 +14,12 @@ This project was started as my own personal foray into Go development. Functiona
 go get -u github.com/coughlanio/go-giantbomb/giantbomb
 ```
 
-# Examples
+# Tests
 
-Several examples have been included to show off some basic functionality. You can run them using the following:
+Tests have been included for the majority of the endpoints already implemented. You can run the test suite using the following:
 
 ``` sh
-GB_API_KEY=<Giant Bomb API Token> go run examples/game.go
+GB_API_KEY=<Giant Bomb API Token> go test ./...
 ```
 
 # Usage
