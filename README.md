@@ -8,6 +8,10 @@ This project was started as my own personal foray into Go development. Functiona
 
 * Go > 1.10
 
+# Authentication
+
+You will need a Giant Bomb API token to use this library. You can get your token from [here.](https://www.giantbomb.com/api/)
+
 # Installation
 
 ``` sh
